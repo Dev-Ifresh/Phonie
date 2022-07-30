@@ -4,13 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Name of chosen challenge</title>
+    <title>Phonie challenge</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="form-container">
+    <form action="#" method="post">
+      <div>
+          <label for="name">Name</label><br/>
+          <input type="text" name="name"  id="name" required>
+      </div>
+          
+      <div>
+          <label for="email">Email</label><br/>
+          <input type="email" name="email"  id="email" required>
+      </div>
+          
+      <div>
+          <label for="phone_no">Phone Number</label><br/>
+          <input type="number" name="phone_no"  id="phone_no" placeholder="080- --- ----" required>
+      </div>
+          
+      <div>
+          <label for="track">Track</label><br/>
+          <select name="Track" id="track">
+              <option value="Front-End Engineering">Front-End Engineering</option>
+              <option value="Back-End Engineering">Back-End Engineering</option>
+              <option value="Cloud Engineering">Cloud Engineering</option>
+          </select>
+      </div>
+      <div>
+          <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
     
-    <h2>make some magic here!!</h2>
+
+
+  
 
     <!-- // ============= EEND DO NOT EDIT ============== // -->
     <script src="index.mjs" type="module"></script>
